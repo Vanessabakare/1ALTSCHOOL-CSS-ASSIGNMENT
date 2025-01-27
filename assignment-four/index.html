@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Assignment 4</title>
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!--Google font styles  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="mainBackground">
+      <div class="heroSect">
+        <img src="./Assets/Logo/Logo.png" alt="logo" />
+        <h1>For Individual</h1>
+        <p>
+          Start benefiting from the wellness experience. For companies looking
+          on increasing productivity, and improving organization wellness.
+        </p>
+      </div>
+
+      <div class="formSect">
+        <form>
+          <div class="lineCont">
+            <div class="labelInputCont">
+              <label for="fname">First Name</label>
+              <input
+                type="text"
+                id="fname"
+                name="First Name"
+                placeholder="Enter First Name"
+                required
+              />
+            </div>
+            <div class="labelInputCont">
+              <label for="lname">Last Name</label>
+              <input
+                type="text"
+                id="lname"
+                name="Last Name"
+                placeholder="Enter Last Name"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="lineCont">
+            <div class="labelInputCont">
+              <label for="Gender">Gender</label>
+              <select
+                id="Gender"
+                name="Gender"
+                placeholder="Select Gender"
+                required
+              >
+                <option id="selectg" value="">Select Gender</option>
+                <option value="Female">Female</option>
+                <option value="Male">Male</option>
+              </select>
+            </div>
+            <div class="labelInputCont">
+              <label for="Date of Birth">Date of Birth</label>
+              <input
+                type="date"
+                name="Date of Birth"
+                id="date"
+                placeholder="Enter DOB"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="lineCont">
+            <div class="labelInputCont">
+              <label for="Weight">Weight(KG)</label>
+              <input
+                type="text"
+                name="Weight"
+                id="Weight"
+                placeholder="Enter Weight"
+                required
+              />
+            </div>
+
+            <div class="labelInputCont">
+              <label for="Height">Height(CM)</label>
+              <input
+                type="text"
+                name="Height"
+                id="Height"
+                placeholder="Enter height here"
+              />
+            </div>
+          </div>
+          <div class="lineCont">
+            <div class="labelInputCont alevel">
+              <label for="ActivityLevel">Activity Level</label>
+              <select
+                name="ActivityLevel"
+                id="ActivityLevel"
+                placeholder="Select here"
+                required
+              >
+                <option value="Select here">Select here</option>
+                <option value="Sedentary">Sedentary</option>
+                <option value="Lightly Active ">Lightly Active</option>
+                <option value="Moderately Active">Moderately Active</option>
+                <option value="Very Active">Very Active</option>
+                <option value="Extremely Active">Extremely Active</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="lineCont">
+            <div class="labelInputCont pword">
+              <label for="Password">Password</label>
+              <input
+                type="password"
+                id="Password"
+                name="Password"
+                placeholder="Enter password"
+              />
+            </div>
+          </div>
+
+          <div class="lineCont">
+            <div class="labelInputCont reg">
+              <input
+                class="button"
+                id="register"
+                type="submit"
+                placeholder="register"
+              />
+            </div>
+          </div>
+
+          <div class="lineCont">
+            <div class="agree">
+              <p>
+                By clicking Register, you agree to our
+                <span>Terms of Use</span> and our <span>Privacy Policy</span>
+              </p>
+            </div>
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

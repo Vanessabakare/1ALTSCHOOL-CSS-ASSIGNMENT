@@ -1,0 +1,77 @@
+/* General Reset  */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Mainbackground */
+
+body {
+  font-family: "Poppins", serif;
+}
+
+.mainBackground {
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  font-size: 15px;
+}
+
+.itemCont {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: aliceblue;
+  width: 30%;
+  min-width:250px;
+  justify-items: center;
+  border-radius: 10px;
+}
+
+.card h1 {
+  padding: 20px;
+  font-size: clamp(15px, 2.5vw, 70px);
+  background-color: rgb(255, 16, 147);
+  border-radius: 5px;
+  font-weight: bolder;
+  width: 85%;
+  text-align: center;
+  margin-top: -30px;
+}
+
+.card p {
+  padding: 35px;
+  border-radius: 10px;
+  font-size: clamp(10px, 1.14vw, 70px);
+  font-weight: 500;
+}
+
+/* Responsive Styling */
+
+@media (max-width: 1024px) {
+  .card {
+    width: 40%;
+    height: 30%;
+    padding: 0;
+  }
+
+  .card h1 {
+    padding: -10px;
+    margin-bottom: -15px;
+  }
+}
+
+@media (max-width: 425px) {
+  .card {
+    width: 60%;
+    height: 40%;
+  }
+}

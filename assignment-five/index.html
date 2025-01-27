@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Assigment 5</title>
+    <!-- External CSS Link -->
+     <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts Links  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <!-- NavBar Section -->
+    <nav class="container navBar">
+        <div class="navBarLineCont">
+            <img src="./Assets/logos/img1.png" alt="" srcset="">
+         </div>
+        <div class="navBarLineCont">
+            <a href="" class="links">Download</a>
+            <a href="" class="links">Learn More</a>
+            <a href="" class="links">Pricing</a>
+            <a href="" class="links">Help</a>
+            <a href="" class="links">Account</a>
+        </div>
+    </nav>
+
+    <main class="cont">
+        <!-- Hero Section -->
+        <section class="heroCont">
+            <div class="hero"></div>
+        </section>
+
+        <!-- Center Panel Section -->
+        <section class="center">
+            <!-- Form Section -->
+            <div class="rightCard">
+                <form>
+                    <!-- Checkout Section -->
+                    <div class="checkout">
+                        <h1>Checkout</h1>
+                    </div>
+
+                    <!-- Basic Info Section -->      
+                    <div class="basicInfoSect">  
+                        <div class="circleCont">
+                            <p class="circle">1</p>
+                            <p>Your Basic Information</p>
+                         </div> 
+
+                        <!-- Form Container -->
+                        <div class="formCont">
+                            <div class="lineCont">
+                                <div class="labelInputCont">
+                                    <label for="fname">First Name</label>
+                                    <input type="text" id="fname" name="First Name" placeholder="Jane" required>
+                                </div>                            
+                                <div class="labelInputCont">
+                                    <label for="lname">Last Name</label>
+                                    <input type="text" id="lname" name="Last Namee" placeholder="Doe" required>
+                                </div>                            
+                            </div>
+    
+                            <div class="lineCont">
+                                <div class="labelInputCont">
+                                    <label for="email">E-mail</label>
+                                    <input type="email" name="email" id="email" placeholder="janedoe@example.com" required>
+                                </div>                            
+                                                           
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- Payment Info Sect -->
+                    <div class="payInfoSect">
+                        <div class="circleCont">
+                            <p class="circle">2</p>
+                            <p>Your Payment Information</p>
+                        </div>
+                        <div class="formCont">
+                            <div class="LineCont">
+                                <div class="labelInputCont">
+                                    <label for="creditcard">Credit Card</label>
+                                    <input type="text" name="creditcard" id="creditcard" placeholder="Card Number                  MM/YY  CVV">
+                                </div>
+    
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Click Section -->
+                    <div class="clickCont">
+                        <div class="click">
+                            <button class="button">Buy WP Pusher</button>
+
+                        </div>
+                        <div class="circleCont contact">
+                            <div class="circle">?</div>
+                            <p>Need any help? Don’t hesitate to contact support!</p>
+                        </div>
+                        <div id="logo">
+                            <img src="./Assets/logos/powered_by_stripe.png" alt="" srcset="">
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+            <!--Side Bar Section  -->
+            <div class="leftCard">
+                <div class="line1 one">
+                    <h3>Freelancer</h2>
+                    <h2>$99 <span id="year">/ year</span></h2>
+                    <p class="italics">Automatically renews after 1 year</p>
+                </div>            
+
+                <div class="line1 two">
+                    <ul>
+                        <li>Use on 5 client sites</li>
+                        <li>Private repositories</li>
+                        <li>Email support</li>
+                    </ul>
+                </div>
+    
+                <div class="line1 three">    
+                    <p>Need <span id="bold">20</span> client sites?</p>
+                    <p id="lined">Switch to the <span id="agency">Agency</span> plan.</p>
+    
+                </div>
+    
+                <div class="line1 four">
+                    <p class="italics" >FTP is horrible to deal with. <span class="bolder">WP Pusher</span> solves that issue, and the customer support is awesome!</p>
+                    <img src="./Assets/logos/img2.png" alt="">
+                    <p><span class="bolder">Kirk Beard</span></p>
+                </div>
+            </div>    
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p class="footer">© 2018 WP Pusher IVS  ·  Terms of Service</p>
+    </footer>
+</body>
+</html>
